@@ -6,7 +6,7 @@ package mockfab
 
 import (
 	context "context"
-	tls "crypto/tls"
+	tls "github.com/studyzy/crypto/tls"
 	reflect "reflect"
 	time "time"
 

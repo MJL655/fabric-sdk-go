@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package membership
 
 import (
-	"crypto/sha256"
 	"time"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
 	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"

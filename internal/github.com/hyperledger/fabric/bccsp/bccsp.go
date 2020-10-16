@@ -11,8 +11,9 @@ Please review third_party pinning scripts and patches for more details.
 package bccsp
 
 import (
-	"crypto"
 	"hash"
+
+	"github.com/studyzy/crypto"
 )
 
 // Key represents a cryptographic key

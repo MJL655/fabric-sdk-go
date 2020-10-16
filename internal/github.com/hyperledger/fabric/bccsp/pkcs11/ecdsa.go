@@ -11,8 +11,9 @@ Please review third_party pinning scripts and patches for more details.
 package pkcs11
 
 import (
-	"crypto/ecdsa"
 	"fmt"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"

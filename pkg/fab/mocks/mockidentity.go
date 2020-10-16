@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	"crypto"
+	"github.com/studyzy/crypto"
 
 	"time"
 

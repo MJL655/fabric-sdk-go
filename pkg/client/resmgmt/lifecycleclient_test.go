@@ -8,8 +8,9 @@ package resmgmt
 
 import (
 	"fmt"
-	"net/http"
 	"testing"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/golang/protobuf/proto"
 	pb "github.com/hyperledger/fabric-protos-go/peer"

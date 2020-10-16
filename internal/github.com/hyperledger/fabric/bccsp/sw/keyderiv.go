@@ -21,11 +21,12 @@ Please review third_party pinning scripts and patches for more details.
 package sw
 
 import (
-	"crypto/ecdsa"
 	"crypto/hmac"
 	"errors"
 	"fmt"
 	"math/big"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )

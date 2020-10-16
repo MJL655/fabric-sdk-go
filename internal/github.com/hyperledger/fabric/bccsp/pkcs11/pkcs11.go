@@ -11,15 +11,18 @@ Please review third_party pinning scripts and patches for more details.
 package pkcs11
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
-	"crypto/sha256"
 	"encoding/asn1"
 	"encoding/hex"
 	"fmt"
 	"math/big"
 	"sync"
 	"time"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/sha256"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cachebridge"
 	sdkp11 "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/common/pkcs11"

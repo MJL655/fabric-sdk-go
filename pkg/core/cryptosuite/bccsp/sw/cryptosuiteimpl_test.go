@@ -8,8 +8,9 @@ package sw
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"testing"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/mock/gomock"
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"

@@ -13,7 +13,8 @@ package httpadmin
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 
 	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )

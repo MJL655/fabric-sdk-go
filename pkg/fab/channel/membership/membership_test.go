@@ -8,10 +8,7 @@ package membership
 
 import (
 	"bytes"
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
@@ -24,6 +21,12 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/golang/protobuf/proto"
 	mb "github.com/hyperledger/fabric-protos-go/msp"

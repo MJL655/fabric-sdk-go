@@ -16,7 +16,6 @@ import (
 	"io/ioutil"
 	"log"
 	"math/rand"
-	"net/http"
 	"os"
 	"os/exec"
 	"os/signal"
@@ -26,6 +25,8 @@ import (
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/studyzy/net/http"
 )
 
 var (

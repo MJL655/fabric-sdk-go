@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package chpvdr
 
 import (
-	"crypto/sha256"
 	"strconv"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"

@@ -8,9 +8,10 @@ package peer
 
 import (
 	reqContext "context"
-	"crypto/x509"
 	"regexp"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/pkg/errors"
 

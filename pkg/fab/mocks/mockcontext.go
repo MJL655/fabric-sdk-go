@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	"crypto/sha256"
 	"encoding/hex"
 	"hash"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"

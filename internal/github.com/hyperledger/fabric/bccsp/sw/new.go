@@ -11,10 +11,12 @@ Please review third_party pinning scripts and patches for more details.
 package sw
 
 import (
-	"crypto/elliptic"
-	"crypto/sha256"
 	"crypto/sha512"
 	"reflect"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"

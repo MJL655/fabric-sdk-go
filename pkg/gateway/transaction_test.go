@@ -9,10 +9,11 @@ package gateway
 import (
 	reqContext "context"
 	"errors"
-	"net/http"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"

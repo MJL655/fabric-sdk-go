@@ -11,7 +11,7 @@ Please review third_party pinning scripts and patches for more details.
 package middleware
 
 import (
-	"net/http"
+	"github.com/studyzy/net/http"
 )
 
 type Middleware func(http.Handler) http.Handler

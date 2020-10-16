@@ -11,11 +11,13 @@ Please review third_party pinning scripts and patches for more details.
 package sw
 
 import (
-	"crypto/elliptic"
-	"crypto/sha256"
 	"crypto/sha512"
 	"fmt"
 	"hash"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"golang.org/x/crypto/sha3"
 )

@@ -15,11 +15,11 @@ import (
 
 	"strings"
 
-	"crypto/tls"
+	"github.com/studyzy/crypto/tls"
 
 	"reflect"
 
-	"crypto/x509"
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/mock/gomock"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockfab"

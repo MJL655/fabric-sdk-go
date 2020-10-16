@@ -10,7 +10,6 @@ package orgs
 import (
 	"bufio"
 	"bytes"
-	"crypto/ecdsa"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -19,6 +18,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-config/protolator"

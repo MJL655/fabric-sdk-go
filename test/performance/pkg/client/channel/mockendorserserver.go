@@ -7,14 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package channel
 
 import (
-	"crypto/ecdsa"
 	"crypto/rand"
-	"crypto/sha256"
-	"crypto/x509"
 	"encoding/pem"
 	"fmt"
 	"net"
 	"sync"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/sha256"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/golang/protobuf/proto"
 	cb "github.com/hyperledger/fabric-protos-go/common"

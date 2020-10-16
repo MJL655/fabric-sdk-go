@@ -22,8 +22,6 @@ package util
 
 import (
 	"bytes"
-	"crypto/ecdsa"
-	"crypto/x509"
 	"encoding/base64"
 	"encoding/json"
 	"encoding/pem"
@@ -32,10 +30,13 @@ import (
 	"math/big"
 	mrand "math/rand"
 
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
+
 	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 
-	"net/http"
 	"os"
 	"path"
 	"path/filepath"
@@ -43,6 +44,8 @@ import (
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/ocsp"

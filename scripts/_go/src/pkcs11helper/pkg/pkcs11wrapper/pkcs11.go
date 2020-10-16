@@ -6,12 +6,14 @@ SPDX-License-Identifier: Apache-2.0
 package pkcs11wrapper
 
 import (
-	"crypto/elliptic"
-	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"github.com/pkg/errors"
 	"os"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/pkg/errors"
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/miekg/pkcs11"
 	"github.com/olekukonko/tablewriter"

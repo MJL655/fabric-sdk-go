@@ -21,15 +21,19 @@ Please review third_party pinning scripts and patches for more details.
 package util
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
 	"strings"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 

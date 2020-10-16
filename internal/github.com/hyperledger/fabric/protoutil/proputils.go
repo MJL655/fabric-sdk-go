@@ -11,9 +11,10 @@ Please review third_party pinning scripts and patches for more details.
 package protoutil
 
 import (
-	"crypto/sha256"
 	"encoding/hex"
 	"time"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"

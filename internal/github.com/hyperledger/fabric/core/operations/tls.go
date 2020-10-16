@@ -11,9 +11,11 @@ Please review third_party pinning scripts and patches for more details.
 package operations
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"io/ioutil"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/pkg/comm"
 )

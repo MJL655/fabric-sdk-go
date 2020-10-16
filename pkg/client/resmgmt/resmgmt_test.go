@@ -12,12 +12,13 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-protos-go/orderer"
 

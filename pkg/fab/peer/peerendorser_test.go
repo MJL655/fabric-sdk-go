@@ -8,11 +8,12 @@ package peer
 
 import (
 	reqContext "context"
-	"crypto/x509"
 	"fmt"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/mock/gomock"
 	pb "github.com/hyperledger/fabric-protos-go/peer"

@@ -8,9 +8,10 @@ package orderer
 
 import (
 	reqContext "context"
-	"crypto/x509"
 	"io"
 	"time"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"

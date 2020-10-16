@@ -12,7 +12,8 @@ package middleware
 
 import (
 	"context"
-	"net/http"
+
+	"github.com/studyzy/net/http"
 )
 
 var requestIDKey = requestIDKeyType{}

@@ -24,8 +24,9 @@ CryptoSuite interface defined in this file acts as a wrapper for
 package core
 
 import (
-	"crypto"
 	"hash"
+
+	"github.com/studyzy/crypto"
 )
 
 //CryptoSuite adaptor for all bccsp functionalities used by SDK

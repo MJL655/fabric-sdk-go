@@ -7,8 +7,6 @@ SPDX-License-Identifier: Apache-2.0
 package configless
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
@@ -16,6 +14,10 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"

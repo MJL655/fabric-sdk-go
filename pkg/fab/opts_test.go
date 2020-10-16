@@ -7,9 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package fab
 
 import (
-	"crypto/tls"
 	"testing"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"

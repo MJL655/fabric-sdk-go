@@ -20,12 +20,16 @@ Please review third_party pinning scripts and patches for more details.
 package sw
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
-	"crypto/sha256"
-	"crypto/x509"
 	"errors"
 	"fmt"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/sha256"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )

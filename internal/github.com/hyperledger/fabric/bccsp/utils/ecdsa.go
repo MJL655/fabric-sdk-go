@@ -11,12 +11,14 @@ Please review third_party pinning scripts and patches for more details.
 package utils
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"encoding/asn1"
 	"errors"
 	"fmt"
 	"math/big"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/ecdsa"
 )
 
 type ECDSASignature struct {

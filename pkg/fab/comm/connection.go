@@ -7,8 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package comm
 
 import (
-	"crypto/x509"
 	"sync/atomic"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/pkg/errors"
 

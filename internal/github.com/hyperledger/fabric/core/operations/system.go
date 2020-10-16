@@ -12,12 +12,14 @@ package operations
 
 import (
 	"context"
-	"crypto/tls"
 	"net"
-	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/studyzy/net/http"
+
+	"github.com/studyzy/crypto/tls"
 
 	kitstatsd "github.com/go-kit/kit/metrics/statsd"
 	"github.com/hyperledger/fabric-lib-go/healthz"

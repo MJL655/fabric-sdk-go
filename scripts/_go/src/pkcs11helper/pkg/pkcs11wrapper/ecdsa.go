@@ -6,20 +6,24 @@ SPDX-License-Identifier: Apache-2.0
 package pkcs11wrapper
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/sha1"
-	"crypto/sha256"
 	"crypto/sha512"
-	"crypto/x509"
 	"encoding/asn1"
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"github.com/pkg/errors"
 	"io/ioutil"
 	"math/big"
+
+	"github.com/studyzy/crypto/elliptic"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/sha256"
+
+	"github.com/pkg/errors"
+	"github.com/studyzy/crypto/ecdsa"
 )
 
 type EcdsaKey struct {

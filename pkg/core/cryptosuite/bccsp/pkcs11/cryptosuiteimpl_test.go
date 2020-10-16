@@ -8,8 +8,9 @@ package pkcs11
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"testing"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

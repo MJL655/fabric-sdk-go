@@ -21,9 +21,11 @@ Please review third_party pinning scripts and patches for more details.
 package tls
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"time"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 

@@ -11,11 +11,12 @@ Please review third_party pinning scripts and patches for more details.
 package pkcs11
 
 import (
-	"crypto/sha256"
 	"crypto/sha512"
 	"encoding/asn1"
 	"fmt"
 	"hash"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"golang.org/x/crypto/sha3"
 )

@@ -16,13 +16,14 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"net/http"
 	"net/url"
 	"os"
 	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/studyzy/net/http"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 

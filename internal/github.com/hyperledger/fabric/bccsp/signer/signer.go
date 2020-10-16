@@ -11,9 +11,11 @@ Please review third_party pinning scripts and patches for more details.
 package signer
 
 import (
-	"crypto"
-	"crypto/x509"
 	"io"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/pkg/errors"
 

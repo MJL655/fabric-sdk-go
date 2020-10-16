@@ -8,8 +8,9 @@ package mockmsp
 
 import (
 	"net"
-	"net/http"
 	"time"
+
+	"github.com/studyzy/net/http"
 
 	cfsslapi "github.com/cloudflare/cfssl/api"
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib"

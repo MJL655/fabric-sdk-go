@@ -12,7 +12,8 @@ package protoutil
 
 import (
 	"bytes"
-	"crypto/sha256"
+
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"

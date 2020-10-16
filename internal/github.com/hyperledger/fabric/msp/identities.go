@@ -11,10 +11,12 @@ Please review third_party pinning scripts and patches for more details.
 package msp
 
 import (
-	"crypto"
 	"crypto/rand"
-	"crypto/x509"
 	"encoding/hex"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/x509"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 

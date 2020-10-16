@@ -7,12 +7,16 @@ SPDX-License-Identifier: Apache-2.0
 package cryptoutil
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/tls"
-	"crypto/x509"
 	"encoding/pem"
 	"io"
+
+	"github.com/studyzy/crypto"
+
+	"github.com/studyzy/crypto/tls"
+
+	"github.com/studyzy/crypto/x509"
+
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
