@@ -27,7 +27,7 @@ import (
 	"io"
 	"net"
 	"github.com/studyzy/net/http"
-	"net/http/httputil"
+	"github.com/studyzy/net/http/httputil"
 	"net/url"
 )
 
