@@ -17,7 +17,7 @@ import (
 	"bufio"
 	"io"
 	"net"
-	"github.com/studyzy/net/http"
+	"net/http"
 )
 
 const (

@@ -2,17 +2,17 @@
 package signer
 
 import (
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
-	"github.com/studyzy/crypto/rsa"
+	"crypto"
+	"crypto/ecdsa"
+	"crypto/elliptic"
+	"crypto/rsa"
 	"crypto/sha1"
-	"github.com/studyzy/crypto/x509"
+	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
 	"math/big"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"strings"
 	"time"
 

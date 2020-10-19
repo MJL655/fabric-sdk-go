@@ -47,7 +47,7 @@
 package pkcs7
 
 import (
-	"github.com/studyzy/crypto/x509"
+	"crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"

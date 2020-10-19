@@ -20,7 +20,7 @@ RSA: The CA SHALL confirm that the value of the public exponent is an odd number
 *******************************************************************************************************/
 
 import (
-	"github.com/studyzy/crypto/rsa"
+	"crypto/rsa"
 
 	"github.com/zmap/zcrypto/x509"
 	"github.com/zmap/zlint/util"

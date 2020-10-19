@@ -15,7 +15,7 @@ package afero
 
 import (
 	"errors"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"os"
 	"path"
 	"path/filepath"

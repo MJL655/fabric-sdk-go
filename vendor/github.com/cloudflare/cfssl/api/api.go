@@ -4,7 +4,7 @@ package api
 import (
 	"encoding/json"
 	"io/ioutil"
-	"github.com/studyzy/net/http"
+	"net/http"
 
 	"github.com/cloudflare/cfssl/errors"
 	"github.com/cloudflare/cfssl/log"

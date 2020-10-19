@@ -7,8 +7,8 @@
 package http2
 
 import (
-	"github.com/studyzy/crypto/tls"
-	"github.com/studyzy/net/http"
+	"crypto/tls"
+	"net/http"
 	"sync"
 )
 

@@ -70,7 +70,7 @@ import (
 	"io"
 	"log"
 	"net"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"net/url"
 	"runtime"
 	"sort"

@@ -1,7 +1,7 @@
 package errors
 
 import (
-	"github.com/studyzy/crypto/x509"
+	"crypto/x509"
 	"encoding/json"
 	"fmt"
 )

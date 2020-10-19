@@ -10,7 +10,7 @@ import (
 	"html/template"
 	"io"
 	"log"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"runtime"
 	"sort"
 	"strconv"

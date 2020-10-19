@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"crypto/md5"
 	"crypto/sha1"
-	"github.com/studyzy/crypto/sha256"
+	"crypto/sha256"
 	"crypto/sha512"
 	"encoding/hex"
 	"encoding/json"

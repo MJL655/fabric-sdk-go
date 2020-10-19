@@ -17,7 +17,7 @@ package lints
 // CHANGE THIS COMMENT TO MATCH SOURCE TEXT
 
 import (
-	"github.com/studyzy/crypto/rsa"
+	"crypto/rsa"
 
 	"github.com/zmap/zcrypto/x509"
 	"github.com/zmap/zlint/util"

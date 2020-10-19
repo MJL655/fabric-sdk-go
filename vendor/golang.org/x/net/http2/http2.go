@@ -18,11 +18,11 @@ package http2 // import "golang.org/x/net/http2"
 
 import (
 	"bufio"
-	"github.com/studyzy/crypto/tls"
+	"crypto/tls"
 	"errors"
 	"fmt"
 	"io"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"os"
 	"sort"
 	"strconv"

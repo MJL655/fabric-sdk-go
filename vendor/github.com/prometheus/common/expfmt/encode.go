@@ -16,7 +16,7 @@ package expfmt
 import (
 	"fmt"
 	"io"
-	"github.com/studyzy/net/http"
+	"net/http"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/matttproud/golang_protobuf_extensions/pbutil"

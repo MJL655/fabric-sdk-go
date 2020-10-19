@@ -5,7 +5,7 @@
 package x509
 
 import (
-	"github.com/studyzy/crypto/rsa"
+	"crypto/rsa"
 	"errors"
 	"math/big"
 

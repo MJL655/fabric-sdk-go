@@ -29,7 +29,7 @@
 //
 //    import (
 //    	"log"
-//    	"github.com/studyzy/net/http"
+//    	"net/http"
 //
 //    	"github.com/prometheus/client_golang/prometheus"
 //    	"github.com/prometheus/client_golang/prometheus/promhttp"

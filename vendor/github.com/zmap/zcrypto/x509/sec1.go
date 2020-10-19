@@ -5,8 +5,8 @@
 package x509
 
 import (
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
+	"crypto/ecdsa"
+	"crypto/elliptic"
 	"encoding/asn1"
 	"errors"
 	"fmt"

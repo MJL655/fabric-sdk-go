@@ -3,10 +3,10 @@
 package derhelpers
 
 import (
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/rsa"
-	"github.com/studyzy/crypto/x509"
+	"crypto"
+	"crypto/ecdsa"
+	"crypto/rsa"
+	"crypto/x509"
 
 	cferr "github.com/cloudflare/cfssl/errors"
 	"golang.org/x/crypto/ed25519"

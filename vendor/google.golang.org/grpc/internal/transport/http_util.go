@@ -26,7 +26,7 @@ import (
 	"io"
 	"math"
 	"net"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"strconv"
 	"strings"
 	"time"

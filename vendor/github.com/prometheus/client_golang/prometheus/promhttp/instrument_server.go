@@ -15,7 +15,7 @@ package promhttp
 
 import (
 	"errors"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"strconv"
 	"strings"
 	"time"

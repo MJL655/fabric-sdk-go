@@ -5,7 +5,7 @@
 package pkcs12
 
 import (
-	"github.com/studyzy/crypto/x509"
+	"crypto/x509"
 	"encoding/asn1"
 	"errors"
 )

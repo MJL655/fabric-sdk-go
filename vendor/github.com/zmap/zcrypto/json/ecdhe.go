@@ -15,7 +15,7 @@
 package json
 
 import (
-	"github.com/studyzy/crypto/elliptic"
+	"crypto/elliptic"
 	"encoding/json"
 	"math/big"
 )

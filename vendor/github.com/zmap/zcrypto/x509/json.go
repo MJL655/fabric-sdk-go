@@ -6,8 +6,8 @@ package x509
 
 import (
 	"crypto/dsa"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/rsa"
+	"crypto/ecdsa"
+	"crypto/rsa"
 	"encoding/asn1"
 	"encoding/json"
 	"errors"

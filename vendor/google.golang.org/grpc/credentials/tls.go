@@ -20,8 +20,8 @@ package credentials
 
 import (
 	"context"
-	"github.com/studyzy/crypto/tls"
-	"github.com/studyzy/crypto/x509"
+	"crypto/tls"
+	"crypto/x509"
 	"fmt"
 	"io/ioutil"
 	"net"

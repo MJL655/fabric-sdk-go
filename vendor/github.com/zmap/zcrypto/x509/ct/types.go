@@ -8,7 +8,7 @@ package ct
 
 import (
 	"bytes"
-	"github.com/studyzy/crypto/sha256"
+	"crypto/sha256"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"

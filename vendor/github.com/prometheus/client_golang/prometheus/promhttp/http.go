@@ -35,7 +35,7 @@ import (
 	"compress/gzip"
 	"fmt"
 	"io"
-	"github.com/studyzy/net/http"
+	"net/http"
 	"strings"
 	"sync"
 	"time"

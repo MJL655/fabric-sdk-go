@@ -15,11 +15,11 @@
 package ct
 
 import (
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
-	"github.com/studyzy/crypto/rsa"
-	"github.com/studyzy/crypto/sha256"
+	"crypto"
+	"crypto/ecdsa"
+	"crypto/elliptic"
+	"crypto/rsa"
+	"crypto/sha256"
 	"encoding/base64"
 	"encoding/pem"
 	"fmt"

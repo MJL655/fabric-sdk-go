@@ -15,8 +15,8 @@
 package ct
 
 import (
-	"github.com/studyzy/crypto"
-	"github.com/studyzy/crypto/sha256"
+	"crypto"
+	"crypto/sha256"
 	"encoding/json"
 	"fmt"
 	"strings"

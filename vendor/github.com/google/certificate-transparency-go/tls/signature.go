@@ -15,14 +15,14 @@
 package tls
 
 import (
-	"github.com/studyzy/crypto"
+	"crypto"
 	"crypto/dsa"
-	"github.com/studyzy/crypto/ecdsa"
+	"crypto/ecdsa"
 	_ "crypto/md5" // For registration side-effect
 	"crypto/rand"
-	"github.com/studyzy/crypto/rsa"
+	"crypto/rsa"
 	_ "crypto/sha1"   // For registration side-effect
-	_ "github.com/studyzy/crypto/sha256" // For registration side-effect
+	_ "crypto/sha256" // For registration side-effect
 	_ "crypto/sha512" // For registration side-effect
 	"errors"
 	"fmt"

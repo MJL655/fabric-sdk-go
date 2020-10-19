@@ -14,17 +14,17 @@ import (
 	// all of the hash libraries need to be imported for side-effects,
 	// so that crypto.RegisterHash is called
 	_ "crypto/md5"
-	"github.com/studyzy/crypto/sha256"
+	"crypto/sha256"
 	_ "crypto/sha512"
 	"io"
 	"strings"
 
 	"bytes"
-	"github.com/studyzy/crypto"
+	"crypto"
 	"crypto/dsa"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
-	"github.com/studyzy/crypto/rsa"
+	"crypto/ecdsa"
+	"crypto/elliptic"
+	"crypto/rsa"
 	"encoding/asn1"
 	"encoding/pem"
 	"errors"
