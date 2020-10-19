@@ -22,7 +22,7 @@ import (
 	mathrand "math/rand"
 	"net"
 	"github.com/studyzy/net/http"
-	"net/http/httptrace"
+	"github.com/studyzy/net/http/httptrace"
 	"net/textproto"
 	"sort"
 	"strconv"
