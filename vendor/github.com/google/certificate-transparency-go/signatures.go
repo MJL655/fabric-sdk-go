@@ -15,10 +15,10 @@
 package ct
 
 import (
-	"crypto"
-	"crypto/ecdsa"
-	"crypto/elliptic"
-	"crypto/rsa"
+	"github.com/studyzy/crypto"
+	"github.com/studyzy/crypto/ecdsa"
+	"github.com/studyzy/crypto/elliptic"
+	"github.com/studyzy/crypto/rsa"
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/pem"

@@ -25,7 +25,7 @@ import (
 	"io"
 	"math"
 	"net"
-	"net/http"
+	"github.com/studyzy/net/http"
 	"reflect"
 	"runtime"
 	"strings"

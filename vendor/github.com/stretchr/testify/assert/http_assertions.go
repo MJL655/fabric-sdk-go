@@ -2,8 +2,8 @@ package assert
 
 import (
 	"fmt"
-	"net/http"
-	"net/http/httptest"
+	"github.com/studyzy/net/http"
+	"github.com/studyzy/net/http/httptest"
 	"net/url"
 	"strings"
 )

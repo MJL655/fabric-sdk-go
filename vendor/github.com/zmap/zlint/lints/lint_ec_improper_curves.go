@@ -21,7 +21,7 @@ ECC Curve: NIST P-256, P-384, or P-521
 ************************************************/
 
 import (
-	"crypto/ecdsa"
+	"github.com/studyzy/crypto/ecdsa"
 
 	"github.com/zmap/zcrypto/x509"
 	"github.com/zmap/zlint/util"

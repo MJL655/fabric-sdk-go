@@ -15,10 +15,10 @@
 package tls
 
 import (
-	"crypto"
+	"github.com/studyzy/crypto"
 	"crypto/dsa"
-	"crypto/ecdsa"
-	"crypto/rsa"
+	"github.com/studyzy/crypto/ecdsa"
+	"github.com/studyzy/crypto/rsa"
 	"fmt"
 )
 

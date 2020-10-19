@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"net/http"
+	"github.com/studyzy/net/http"
 	"net/http/httputil"
 	"net/url"
 )

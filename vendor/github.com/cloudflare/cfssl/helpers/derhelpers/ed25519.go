@@ -1,7 +1,7 @@
 package derhelpers
 
 import (
-	"crypto"
+	"github.com/studyzy/crypto"
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"

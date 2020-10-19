@@ -14,8 +14,8 @@
 package promhttp
 
 import (
-	"crypto/tls"
-	"net/http"
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/net/http"
 	"net/http/httptrace"
 	"time"
 

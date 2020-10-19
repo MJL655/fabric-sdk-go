@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"net/http"
+	"github.com/studyzy/net/http"
 	"strings"
 	"sync"
 	"time"

@@ -22,7 +22,7 @@ package ed25519
 
 import (
 	"bytes"
-	"crypto"
+	"github.com/studyzy/crypto"
 	cryptorand "crypto/rand"
 	"crypto/sha512"
 	"errors"

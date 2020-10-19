@@ -2,8 +2,8 @@
 package config
 
 import (
-	"crypto/tls"
-	"crypto/x509"
+	"github.com/studyzy/crypto/tls"
+	"github.com/studyzy/crypto/x509"
 	"encoding/asn1"
 	"encoding/json"
 	"errors"

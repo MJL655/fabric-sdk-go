@@ -5,8 +5,8 @@
 package x509
 
 import (
-	"crypto/ecdsa"
-	"crypto/rsa"
+	"github.com/studyzy/crypto/ecdsa"
+	"github.com/studyzy/crypto/rsa"
 	"errors"
 	"fmt"
 

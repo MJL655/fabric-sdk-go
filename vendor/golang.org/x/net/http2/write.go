@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"fmt"
 	"log"
-	"net/http"
+	"github.com/studyzy/net/http"
 	"net/url"
 
 	"golang.org/x/net/http/httpguts"

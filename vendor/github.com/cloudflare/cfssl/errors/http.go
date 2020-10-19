@@ -2,7 +2,7 @@ package errors
 
 import (
 	"errors"
-	"net/http"
+	"github.com/studyzy/net/http"
 )
 
 // HTTPError is an augmented error with a HTTP status code.

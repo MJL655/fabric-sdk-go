@@ -5,7 +5,7 @@
 package x509
 
 import (
-	"crypto/elliptic"
+	"github.com/studyzy/crypto/elliptic"
 	"math/big"
 	"sync"
 )

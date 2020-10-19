@@ -5,8 +5,8 @@
 package x509
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
+	"github.com/studyzy/crypto/ecdsa"
+	"github.com/studyzy/crypto/elliptic"
 	"errors"
 	"fmt"
 	"math/big"

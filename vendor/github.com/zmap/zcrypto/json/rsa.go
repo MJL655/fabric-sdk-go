@@ -15,7 +15,7 @@
 package json
 
 import (
-	"crypto/rsa"
+	"github.com/studyzy/crypto/rsa"
 	"encoding/json"
 	"fmt"
 	"math/big"

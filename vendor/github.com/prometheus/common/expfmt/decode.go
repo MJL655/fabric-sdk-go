@@ -18,7 +18,7 @@ import (
 	"io"
 	"math"
 	"mime"
-	"net/http"
+	"github.com/studyzy/net/http"
 
 	dto "github.com/prometheus/client_model/go"
 
