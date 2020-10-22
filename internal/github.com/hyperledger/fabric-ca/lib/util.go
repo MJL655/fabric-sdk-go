@@ -20,7 +20,7 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 	"github.com/pkg/errors"
 )
 

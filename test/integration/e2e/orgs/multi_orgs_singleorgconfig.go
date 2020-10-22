@@ -12,12 +12,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/studyzy/fabric-sdk-go/pkg/client/channel"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config"
+	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
+	"github.com/studyzy/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

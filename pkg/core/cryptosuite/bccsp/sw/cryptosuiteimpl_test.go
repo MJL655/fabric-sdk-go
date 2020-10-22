@@ -13,9 +13,9 @@ import (
 	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockcore"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/test/mockcore"
 )
 
 func TestBadConfig(t *testing.T) {

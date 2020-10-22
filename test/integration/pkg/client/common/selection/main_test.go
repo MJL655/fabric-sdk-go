@@ -8,9 +8,9 @@ package selection
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
-	"github.com/hyperledger/fabric-sdk-go/test/integration/util/runner"
+	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
+	"github.com/studyzy/fabric-sdk-go/test/integration"
+	"github.com/studyzy/fabric-sdk-go/test/integration/util/runner"
 	"github.com/stretchr/testify/require"
 )
 

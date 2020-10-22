@@ -25,8 +25,8 @@ import (
 
 	"github.com/studyzy/crypto/ecdsa"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
 )
 
 func signECDSA(k *ecdsa.PrivateKey, digest []byte, opts bccsp.SignerOpts) ([]byte, error) {

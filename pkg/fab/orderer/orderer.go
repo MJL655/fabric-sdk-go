@@ -13,7 +13,7 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 	"google.golang.org/grpc"
@@ -23,13 +23,13 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/studyzy/fabric-sdk-go/pkg/client/common/verifier"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/context"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config/comm"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config/endpoint"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

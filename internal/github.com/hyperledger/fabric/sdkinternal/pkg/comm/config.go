@@ -17,8 +17,8 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
+	flogging "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 )

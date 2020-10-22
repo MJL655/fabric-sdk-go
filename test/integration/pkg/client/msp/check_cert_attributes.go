@@ -12,8 +12,8 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
+	"github.com/studyzy/fabric-sdk-go/pkg/client/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

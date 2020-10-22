@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockfab"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/test/mockfab"
 )
 
 const (

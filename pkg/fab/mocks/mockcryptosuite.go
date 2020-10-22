@@ -11,7 +11,7 @@ import (
 
 	"github.com/studyzy/crypto/sha256"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 )
 
 // MockCryptoSuite implementation

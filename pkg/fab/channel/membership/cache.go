@@ -11,8 +11,8 @@ import (
 
 	"github.com/studyzy/crypto/sha256"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"
+	"github.com/studyzy/fabric-sdk-go/pkg/util/concurrent/lazycache"
+	"github.com/studyzy/fabric-sdk-go/pkg/util/concurrent/lazyref"
 
 	"github.com/pkg/errors"
 )

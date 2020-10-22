@@ -12,13 +12,13 @@ import (
 
 	"github.com/studyzy/crypto/sha256"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/mocks"
+	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk/metrics"
+	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
 
 	"strings"
 

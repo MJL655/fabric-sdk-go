@@ -18,7 +18,7 @@ import (
 
 	"github.com/studyzy/crypto/sha256"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 )

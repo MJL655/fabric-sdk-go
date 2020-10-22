@@ -17,7 +17,7 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/pkg/comm"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/pkg/comm"
 )
 
 type TLS struct {

@@ -17,10 +17,10 @@ import (
 
 	"github.com/studyzy/crypto/ecdsa"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	sdkp11 "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/common/pkcs11"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
+	flogging "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	sdkp11 "github.com/studyzy/fabric-sdk-go/pkg/core/cryptosuite/common/pkcs11"
 	"github.com/pkg/errors"
 )
 

@@ -34,8 +34,8 @@ import (
 
 	"github.com/studyzy/crypto/ecdsa"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	factory "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 
 	"os"
 	"path"

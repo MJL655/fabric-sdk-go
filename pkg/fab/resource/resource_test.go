@@ -14,17 +14,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/studyzy/fabric-sdk-go/pkg/context"
+	"github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/studyzy/fabric-sdk-go/pkg/fab/peer"
+	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/studyzy/fabric-sdk-go/test/metadata"
 	"github.com/pkg/errors"
 )
 

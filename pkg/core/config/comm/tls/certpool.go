@@ -12,7 +12,7 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

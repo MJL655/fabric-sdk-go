@@ -19,17 +19,17 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/cryptoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	logApi "github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
+	commtls "github.com/studyzy/fabric-sdk-go/pkg/core/config/comm/tls"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config/cryptoutil"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/logging/api"
+	logApi "github.com/studyzy/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/studyzy/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/pkg/errors"
 )
 

@@ -9,8 +9,8 @@ package dispatcher
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

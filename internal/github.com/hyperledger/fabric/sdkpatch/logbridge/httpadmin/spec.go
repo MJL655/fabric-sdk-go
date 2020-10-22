@@ -16,7 +16,7 @@ import (
 
 	"github.com/studyzy/net/http"
 
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	flogging "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )
 
 //go:generate counterfeiter -o fakes/logging.go -fake-name Logging . Logging

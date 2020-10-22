@@ -15,11 +15,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	mb "github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
+	"github.com/studyzy/fabric-sdk-go/pkg/client/common/verifier"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

@@ -14,7 +14,7 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
+	commtls "github.com/studyzy/fabric-sdk-go/pkg/core/config/comm/tls"
 
 	"github.com/pkg/errors"
 
@@ -22,13 +22,13 @@ import (
 
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	logApi "github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/studyzy/fabric-sdk-go/pkg/core/config/lookup"
+	logApi "github.com/studyzy/fabric-sdk-go/pkg/core/logging/api"
+	fabImpl "github.com/studyzy/fabric-sdk-go/pkg/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/util/pathvar"
 )
 
 var defaultCAServerSchema = "https"

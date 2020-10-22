@@ -12,7 +12,7 @@ import (
 	"github.com/studyzy/net/http"
 
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 // MockTransactor provides an implementation of Transactor that exposes all its context.

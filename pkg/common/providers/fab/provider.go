@@ -12,11 +12,11 @@ import (
 
 	"github.com/studyzy/crypto/tls"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
+	commtls "github.com/studyzy/fabric-sdk-go/pkg/core/config/comm/tls"
+	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk/metrics"
 	"google.golang.org/grpc"
 )
 

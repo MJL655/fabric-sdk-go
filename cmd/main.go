@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/ledger"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/studyzy/fabric-sdk-go/pkg/client/ledger"
+	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
 )
 func main() {
 	queryChainInfo()

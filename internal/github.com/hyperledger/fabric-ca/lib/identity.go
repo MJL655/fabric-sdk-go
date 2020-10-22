@@ -17,11 +17,11 @@ import (
 
 	"github.com/studyzy/net/http"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	log "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 	"github.com/pkg/errors"
 )
 

@@ -9,8 +9,8 @@ package gateway
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 )
 
 func TestNewNetwork(t *testing.T) {

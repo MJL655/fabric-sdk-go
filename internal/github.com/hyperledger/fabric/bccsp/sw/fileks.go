@@ -24,7 +24,7 @@ import (
 
 	"github.com/studyzy/crypto/ecdsa"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.
