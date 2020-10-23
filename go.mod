@@ -28,7 +28,7 @@ require (
 	github.com/spf13/viper v1.1.1
 	github.com/stretchr/testify v1.5.1
 	github.com/studyzy/crypto v0.0.0-20201015154153-d31e1e6039c6
-	github.com/studyzy/net v0.0.0-20201009065424-632798fa16ef
+	github.com/studyzy/net v0.0.0-20201020014349-89230b9445e0
 	golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
 	golang.org/x/net v0.0.0-20190613194153-d28f0bde5980
 	google.golang.org/grpc v1.29.1
