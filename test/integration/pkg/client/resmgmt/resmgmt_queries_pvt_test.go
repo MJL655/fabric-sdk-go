@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/resmgmt"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
@@ -19,7 +19,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 const (

@@ -12,8 +12,8 @@ import (
 	"github.com/studyzy/crypto/x509"
 
 	"github.com/spf13/cast"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/keepalive"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/client/common/verifier"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"

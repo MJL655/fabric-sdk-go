@@ -11,7 +11,7 @@ Please review third_party pinning scripts and patches for more details.
 package logbridge
 
 import (
-	clog "github.com/cloudflare/cfssl/log"
+	clog "github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/log"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 )
 

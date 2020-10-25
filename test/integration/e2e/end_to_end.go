@@ -15,9 +15,9 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/policydsl"
 

@@ -11,12 +11,12 @@ import (
 	"testing"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/multi"
-	"github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
-	grpccodes "google.golang.org/grpc/codes"
-	grpcstatus "google.golang.org/grpc/status"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	grpccodes "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/codes"
+	grpcstatus "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/status"
 )
 
 func TestStatusConstructors(t *testing.T) {

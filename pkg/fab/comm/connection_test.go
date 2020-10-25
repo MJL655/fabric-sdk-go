@@ -14,7 +14,7 @@ import (
 	eventmocks "github.com/studyzy/fabric-sdk-go/pkg/fab/events/mocks"
 	fabmocks "github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 func TestConnection(t *testing.T) {

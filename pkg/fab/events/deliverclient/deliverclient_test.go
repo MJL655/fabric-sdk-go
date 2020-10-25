@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/events/api"

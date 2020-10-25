@@ -5,7 +5,7 @@ import (
 	reqContext "context"
 	"sync"
 
-	"github.com/hyperledger/fabric-protos-go/common"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/resource"
 )

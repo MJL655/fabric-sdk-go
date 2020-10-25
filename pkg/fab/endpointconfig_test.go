@@ -21,9 +21,9 @@ import (
 	"github.com/studyzy/crypto/x509"
 
 	"github.com/pkg/errors"
-	"github.com/spf13/viper"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/spf13/viper"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"

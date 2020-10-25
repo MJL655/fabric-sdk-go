@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 func TestInvokeSuccess(t *testing.T) {

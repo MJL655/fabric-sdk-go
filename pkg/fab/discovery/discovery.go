@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hyperledger/fabric-protos-go/discovery"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/discovery"
 	discclient "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	fabcontext "github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
@@ -19,7 +19,7 @@ import (
 	corecomm "github.com/studyzy/fabric-sdk-go/pkg/core/config/comm"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/comm"
 	"github.com/pkg/errors"
-	"google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

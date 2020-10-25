@@ -12,8 +12,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
 	mspclient "github.com/studyzy/fabric-sdk-go/pkg/client/msp"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/resmgmt"

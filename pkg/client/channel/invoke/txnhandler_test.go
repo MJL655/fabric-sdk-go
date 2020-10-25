@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	txnmocks "github.com/studyzy/fabric-sdk-go/pkg/client/common/mocks"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"

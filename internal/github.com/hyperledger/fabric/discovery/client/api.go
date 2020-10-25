@@ -11,10 +11,10 @@ Please review third_party pinning scripts and patches for more details.
 package discovery
 
 import (
-	"github.com/hyperledger/fabric-protos-go/discovery"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/discovery"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/gossip/protoext"
 	"github.com/pkg/errors"
-	"google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
 )
 
 var (

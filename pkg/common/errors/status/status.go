@@ -17,9 +17,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/multi"
-	grpcstatus "google.golang.org/grpc/status"
+	grpcstatus "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/status"
 )
 
 // Status provides additional information about an unsuccessful operation

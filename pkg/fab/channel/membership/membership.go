@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	mb "github.com/hyperledger/fabric-protos-go/msp"
+	mb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/common/verifier"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"

@@ -17,7 +17,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/test/mockcore"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const (

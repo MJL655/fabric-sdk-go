@@ -12,9 +12,9 @@ import (
 	"regexp"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/common"
-	mb "github.com/hyperledger/fabric-protos-go/msp"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	mb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/msp"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	channelConfig "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/channelconfig"
 	imsp "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"

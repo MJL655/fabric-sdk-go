@@ -13,7 +13,7 @@ import (
 	"github.com/studyzy/crypto/sha256"
 
 	"github.com/golang/mock/gomock"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	pkcsFactory "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/pkcs11"

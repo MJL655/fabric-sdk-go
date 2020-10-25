@@ -26,7 +26,7 @@ import (
 	"sort"
 	"strings"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/chaincode/platforms/util"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/ccmetadata"
 	"github.com/pkg/errors"

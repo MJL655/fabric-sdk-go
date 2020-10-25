@@ -16,11 +16,11 @@ import (
 	"math"
 
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	mspprotos "github.com/hyperledger/fabric-protos-go/msp"
-	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-protos-go/orderer/etcdraft"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	mspprotos "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/msp"
+	ab "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer/etcdraft"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )
 

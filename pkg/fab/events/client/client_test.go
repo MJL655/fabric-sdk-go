@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
@@ -31,8 +31,8 @@ import (
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/studyzy/fabric-sdk-go/pkg/util/test"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 const (

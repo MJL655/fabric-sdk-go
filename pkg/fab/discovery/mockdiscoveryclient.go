@@ -10,8 +10,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/hyperledger/fabric-protos-go/discovery"
-	"github.com/hyperledger/fabric-protos-go/gossip"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/discovery"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/gossip"
 	discclient "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
 	gprotoext "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/gossip/protoext"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"

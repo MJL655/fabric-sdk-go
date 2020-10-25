@@ -9,13 +9,13 @@ package channel
 import (
 	reqContext "context"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"

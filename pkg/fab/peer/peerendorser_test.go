@@ -16,11 +16,11 @@ import (
 	"github.com/studyzy/crypto/x509"
 
 	"github.com/golang/mock/gomock"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	grpcCodes "google.golang.org/grpc/codes"
-	"google.golang.org/grpc/keepalive"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
+	grpcCodes "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/codes"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/keepalive"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"

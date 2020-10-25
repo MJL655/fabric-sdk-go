@@ -14,7 +14,7 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/studyzy/crypto/tls"
 

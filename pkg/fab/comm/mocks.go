@@ -11,7 +11,7 @@ import (
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	fabmocks "github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
-	"google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
 )
 
 // MockCommManager is a non-caching comm manager used

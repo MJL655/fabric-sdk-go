@@ -11,7 +11,7 @@ Please review third_party pinning scripts and patches for more details.
 package statsd
 
 import (
-	"github.com/go-kit/kit/metrics/statsd"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/go-kit/kit/metrics/statsd"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/internal/namer"
 )

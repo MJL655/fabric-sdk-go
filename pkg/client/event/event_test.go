@@ -18,13 +18,13 @@ import (
 	fcmocks "github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/events/service"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/events/service/dispatcher"
 	servicemocks "github.com/studyzy/fabric-sdk-go/pkg/fab/events/service/mocks"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 )
 
 var (

@@ -15,7 +15,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/msp"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 // nolint: deadcode

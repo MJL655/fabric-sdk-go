@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/studyzy/fabric-sdk-go/pkg/context"
@@ -23,7 +23,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
 	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 const (

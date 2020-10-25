@@ -13,8 +13,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/testdata"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/credentials"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/testdata"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/client/channel"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
@@ -24,11 +24,11 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
 	"github.com/studyzy/fabric-sdk-go/pkg/util/pathvar"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/policydsl"
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 )
 
 const (

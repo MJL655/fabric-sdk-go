@@ -15,7 +15,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/core/logging/api"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/logging/metadata"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/logging/testdata"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const (

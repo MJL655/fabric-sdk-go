@@ -13,13 +13,13 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/common"
-	po "github.com/hyperledger/fabric-protos-go/orderer"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	po "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/events/service/mocks"
 	"github.com/studyzy/fabric-sdk-go/pkg/util/test"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/credentials"
 )
 
 // TestBlock is a test block

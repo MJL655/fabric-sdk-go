@@ -15,7 +15,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"
-	"google.golang.org/grpc/grpclog"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/grpclog"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/config"
@@ -23,7 +23,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/core/mocks"
 	fabImpl "github.com/studyzy/fabric-sdk-go/pkg/fab"
 	"github.com/studyzy/fabric-sdk-go/test/integration"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const (

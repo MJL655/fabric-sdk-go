@@ -15,15 +15,15 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/studyzy/fabric-sdk-go/pkg/context"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 )
 
 func TestNewTransaction(t *testing.T) {

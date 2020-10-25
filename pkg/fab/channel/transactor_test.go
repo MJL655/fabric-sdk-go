@@ -13,7 +13,7 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"

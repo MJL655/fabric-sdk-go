@@ -24,10 +24,10 @@ import (
 	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
-	fabdiscovery "github.com/hyperledger/fabric-protos-go/discovery"
+	fabdiscovery "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/discovery"
 	discclient "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
 	"github.com/studyzy/fabric-sdk-go/pkg/context"
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk"

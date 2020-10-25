@@ -9,7 +9,7 @@ package config
 import (
 	"github.com/studyzy/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/pkg/errors"
-	"github.com/spf13/viper"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/spf13/viper"
 )
 
 // defConfigBackend represents the default config backend

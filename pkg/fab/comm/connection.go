@@ -21,8 +21,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/context"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/config/comm"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/config/endpoint"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/credentials"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

@@ -8,7 +8,7 @@ package msp
 import (
 	"fmt"
 
-	"github.com/cloudflare/cfssl/log"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/log"
 	fabricCaUtil "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"

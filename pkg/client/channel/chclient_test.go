@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/client/channel/invoke"
 	txnmocks "github.com/studyzy/fabric-sdk-go/pkg/client/common/mocks"
@@ -27,8 +27,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/txn"
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 )
 
 const (

@@ -9,9 +9,9 @@ package mocks
 import (
 	reqContex "context"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 )
 

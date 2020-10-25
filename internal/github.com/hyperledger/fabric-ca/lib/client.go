@@ -23,12 +23,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 
-	cfsslapi "github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/csr"
+	cfsslapi "github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/api"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/csr"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
 	x509cred "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/streamer"

@@ -19,8 +19,8 @@ import (
 
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
 	flogging "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/keepalive"
 )
 
 // Configuration defaults

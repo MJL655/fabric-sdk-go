@@ -14,7 +14,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/resource/genesisconfig"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 // Mock profiles are based on https://github.com/hyperledger/fabric/blob/v2.0.0-alpha/sampleconfig/configtx.yaml

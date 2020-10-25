@@ -13,7 +13,7 @@ package api
 import (
 	"time"
 
-	"github.com/cloudflare/cfssl/csr"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/csr"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 )
 
@@ -107,7 +107,7 @@ type RevocationRequest struct {
 	Serial string `json:"serial,omitempty" opt:"s" help:"Serial number of the certificate to be revoked"`
 	// AKI (Authority Key Identifier) of the certificate to be revoked
 	AKI string `json:"aki,omitempty" opt:"a" help:"AKI (Authority Key Identifier) of the certificate to be revoked"`
-	// Reason is the reason for revocation.  See https://godoc.org/golang.org/x/crypto/ocsp for
+	// Reason is the reason for revocation.  See https://godoc.org/github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/ocsp for
 	// valid values.  The default value is 0 (ocsp.Unspecified).
 	Reason string `json:"reason,omitempty" opt:"r" help:"Reason for revocation"`
 	// CAName is the name of the CA to connect to

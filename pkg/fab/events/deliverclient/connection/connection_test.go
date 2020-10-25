@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/keepalive"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/keepalive"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/comm"
 	clientdisp "github.com/studyzy/fabric-sdk-go/pkg/fab/events/client/dispatcher"
@@ -21,10 +21,10 @@ import (
 	eventmocks "github.com/studyzy/fabric-sdk-go/pkg/fab/events/mocks"
 	fabmocks "github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
-	"google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
 )
 
 type streamType string

@@ -22,7 +22,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk/factory/defcore"
 	mspimpl "github.com/studyzy/fabric-sdk-go/pkg/msp"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 func TestCreateUserStore(t *testing.T) {

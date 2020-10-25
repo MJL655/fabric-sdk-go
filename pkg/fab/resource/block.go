@@ -11,8 +11,8 @@ import (
 	reqContext "context"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/common"
-	ab "github.com/hyperledger/fabric-protos-go/orderer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	ab "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	contextImpl "github.com/studyzy/fabric-sdk-go/pkg/context"

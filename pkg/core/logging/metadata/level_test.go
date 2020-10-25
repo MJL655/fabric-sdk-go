@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 func TestLogLevels(t *testing.T) {

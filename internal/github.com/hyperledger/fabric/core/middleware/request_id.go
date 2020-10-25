@@ -13,7 +13,7 @@ package middleware
 import (
 	"context"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 )
 
 var requestIDKey = requestIDKeyType{}

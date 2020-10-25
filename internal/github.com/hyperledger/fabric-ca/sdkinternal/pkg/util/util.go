@@ -45,10 +45,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/pkg/errors"
-	"golang.org/x/crypto/ocsp"
+	"github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/ocsp"
 )
 
 var (

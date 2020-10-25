@@ -17,12 +17,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/studyzy/crypto/tls"
 
-	kitstatsd "github.com/go-kit/kit/metrics/statsd"
-	"github.com/hyperledger/fabric-lib-go/healthz"
+	kitstatsd "github.com/studyzy/fabric-sdk-go/third_party/github.com/go-kit/kit/metrics/statsd"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-lib-go/healthz"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/disabled"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics/prometheus"
@@ -32,7 +32,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/middleware"
 	flogging "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge/httpadmin"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 //go:generate counterfeiter -o fakes/logger.go -fake-name Logger . Logger

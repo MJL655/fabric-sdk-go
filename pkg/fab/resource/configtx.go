@@ -21,9 +21,9 @@ import (
 
 	localconfig "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/configtxgen/genesisconfig"
 
-	"github.com/hyperledger/fabric-config/protolator"
-	"github.com/hyperledger/fabric-protos-go/common"
-	cb "github.com/hyperledger/fabric-protos-go/common"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-config/protolator"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/resource/genesisconfig"
 )
 

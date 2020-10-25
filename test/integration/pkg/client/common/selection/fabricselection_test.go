@@ -15,9 +15,9 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
 
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/common/selection/fabricselection"
 	selectionopts "github.com/studyzy/fabric-sdk-go/pkg/client/common/selection/options"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
@@ -29,7 +29,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/test/integration"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/policydsl"
-	grpcCodes "google.golang.org/grpc/codes"
+	grpcCodes "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/codes"
 )
 
 const (

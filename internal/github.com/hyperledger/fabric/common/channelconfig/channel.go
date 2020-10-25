@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"math"
 
-	cb "github.com/hyperledger/fabric-protos-go/common"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/capabilities"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"

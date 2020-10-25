@@ -13,7 +13,7 @@ package x509
 import (
 	"encoding/hex"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"
 

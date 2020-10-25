@@ -124,7 +124,7 @@ type RevocationRequest struct {
 	Serial string
 	// AKI (Authority Key Identifier) of the certificate to be revoked
 	AKI string
-	// Reason is the reason for revocation. See https://godoc.org/golang.org/x/crypto/ocsp
+	// Reason is the reason for revocation. See https://godoc.org/github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/ocsp
 	// for valid values. The default value is 0 (ocsp.Unspecified).
 	Reason string
 	// CAName is the name of the CA to connect to

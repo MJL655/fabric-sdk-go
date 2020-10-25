@@ -12,9 +12,9 @@ import (
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	ab "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/crypto"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
@@ -24,7 +24,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/comm"
 	clientdisp "github.com/studyzy/fabric-sdk-go/pkg/fab/events/client/dispatcher"
 	"github.com/pkg/errors"
-	"google.golang.org/grpc"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

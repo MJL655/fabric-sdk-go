@@ -16,19 +16,19 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"google.golang.org/grpc"
-	grpccodes "google.golang.org/grpc/codes"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc"
+	grpccodes "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/codes"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-protos-go/common"
-	ab "github.com/hyperledger/fabric-protos-go/orderer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	ab "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/test/mockfab"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/config/endpoint"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 var testOrdererURL = "127.0.0.1:0"

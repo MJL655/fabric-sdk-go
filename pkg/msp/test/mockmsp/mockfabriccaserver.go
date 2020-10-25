@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
-	cfsslapi "github.com/cloudflare/cfssl/api"
+	cfsslapi "github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/api"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"

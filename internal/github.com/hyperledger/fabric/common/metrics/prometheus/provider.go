@@ -11,10 +11,10 @@ Please review third_party pinning scripts and patches for more details.
 package prometheus
 
 import (
-	kitmetrics "github.com/go-kit/kit/metrics"
-	"github.com/go-kit/kit/metrics/prometheus"
+	kitmetrics "github.com/studyzy/fabric-sdk-go/third_party/github.com/go-kit/kit/metrics"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/go-kit/kit/metrics/prometheus"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
-	prom "github.com/prometheus/client_golang/prometheus"
+	prom "github.com/studyzy/fabric-sdk-go/third_party/github.com/prometheus/client_golang/prometheus"
 )
 
 type Provider struct{}

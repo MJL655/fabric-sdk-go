@@ -11,7 +11,7 @@ import (
 	reqContext "context"
 	"time"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	selectopts "github.com/studyzy/fabric-sdk-go/pkg/client/common/selection/options"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/core"

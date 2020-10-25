@@ -23,8 +23,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/msp"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/mocks"
 	"github.com/mitchellh/mapstructure"
-	"github.com/spf13/viper"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/spf13/viper"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 var sampleConfigFile = filepath.Join("..", "testdata", "config_test_entity_matchers.yaml")

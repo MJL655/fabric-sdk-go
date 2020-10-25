@@ -10,7 +10,7 @@ import (
 	"math"
 	"time"
 
-	ab "github.com/hyperledger/fabric-protos-go/orderer"
+	ab "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
 	fabcontext "github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"

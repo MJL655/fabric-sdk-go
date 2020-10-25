@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
-	"github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/channel/invoke"
 	txnmocks "github.com/studyzy/fabric-sdk-go/pkg/client/common/mocks"
 	cpc "github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"

@@ -16,7 +16,7 @@ import (
 	fab "github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	emocks "github.com/studyzy/fabric-sdk-go/pkg/fab/events/client/mocks"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const (

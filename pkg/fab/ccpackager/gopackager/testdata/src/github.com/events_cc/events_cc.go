@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/chaincode/shim"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // EventSender example simple Chaincode implementation

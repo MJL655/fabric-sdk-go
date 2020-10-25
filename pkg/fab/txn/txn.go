@@ -14,8 +14,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	ctxprovider "github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"

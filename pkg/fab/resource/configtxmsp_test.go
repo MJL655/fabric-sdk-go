@@ -18,8 +18,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 
 	mspcfg "github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/msp"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 func randomMspDir() string {

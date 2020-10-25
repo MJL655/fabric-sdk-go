@@ -15,8 +15,8 @@ import (
 
 	"github.com/studyzy/crypto/x509"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 var goodCert = &x509.Certificate{

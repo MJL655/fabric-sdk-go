@@ -34,8 +34,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/msp"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 const (

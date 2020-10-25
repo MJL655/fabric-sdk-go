@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	mPkcs11 "github.com/miekg/pkcs11"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const (

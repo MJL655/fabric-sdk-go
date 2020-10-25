@@ -15,7 +15,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/common/options"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/spf13/cast"
-	"google.golang.org/grpc/keepalive"
+	"github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/keepalive"
 )
 
 type params struct {

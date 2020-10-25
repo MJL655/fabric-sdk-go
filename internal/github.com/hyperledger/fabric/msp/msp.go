@@ -13,7 +13,7 @@ package msp
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-protos-go/msp"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/msp"
 )
 
 // IdentityDeserializer is implemented by both MSPManger and MSP

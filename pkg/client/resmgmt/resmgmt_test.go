@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 
-	"github.com/hyperledger/fabric-protos-go/orderer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/orderer"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/util/test"
 
@@ -28,8 +28,8 @@ import (
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/policydsl"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/status"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
@@ -47,7 +47,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk/provider/fabpvdr"
 	mspmocks "github.com/studyzy/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const (

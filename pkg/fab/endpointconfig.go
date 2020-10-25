@@ -31,7 +31,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
-	grpcCodes "google.golang.org/grpc/codes"
+	grpcCodes "github.com/studyzy/fabric-sdk-go/third_party/google.golang.org/grpc/codes"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

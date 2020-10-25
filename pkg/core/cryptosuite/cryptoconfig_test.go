@@ -18,7 +18,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/core/config"
 	"github.com/studyzy/fabric-sdk-go/pkg/core/mocks"
 	"github.com/studyzy/fabric-sdk-go/test/metadata"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 const configTestFile = "config_test.yaml"

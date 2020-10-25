@@ -10,8 +10,8 @@ import (
 	"io"
 	"sync"
 
-	cb "github.com/hyperledger/fabric-protos-go/common"
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	cb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/studyzy/fabric-sdk-go/pkg/util/test"
 	"github.com/pkg/errors"

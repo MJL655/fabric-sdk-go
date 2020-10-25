@@ -11,7 +11,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/spf13/viper"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/spf13/viper"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/common/logging"
 	"github.com/pkg/errors"

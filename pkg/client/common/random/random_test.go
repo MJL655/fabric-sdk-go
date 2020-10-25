@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	pfab "github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/stretchr/testify/assert"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/assert"
 )
 
 func TestPickRandomNPeerConfigs(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"time"
 
-	pb "github.com/hyperledger/fabric-protos-go/peer"
+	pb "github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/channel"
 	"github.com/studyzy/fabric-sdk-go/pkg/client/resmgmt"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/errors/retry"

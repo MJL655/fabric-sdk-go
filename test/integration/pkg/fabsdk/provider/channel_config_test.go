@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-protos-go/common"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
 
 	"github.com/studyzy/fabric-sdk-go/pkg/fab/resource"
 
@@ -27,7 +27,7 @@ import (
 	"github.com/studyzy/fabric-sdk-go/pkg/fabsdk/provider/fabpvdr"
 	"github.com/studyzy/fabric-sdk-go/pkg/msp"
 	"github.com/studyzy/fabric-sdk-go/test/integration"
-	"github.com/stretchr/testify/require"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/stretchr/testify/require"
 )
 
 func TestChannelConfig(t *testing.T) {

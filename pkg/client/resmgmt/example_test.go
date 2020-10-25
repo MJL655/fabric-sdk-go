@@ -14,7 +14,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/hyperledger/fabric-protos-go/common"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/hyperledger/fabric-protos-go/common"
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/policydsl"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/studyzy/fabric-sdk-go/pkg/common/providers/fab"

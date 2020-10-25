@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/studyzy/net/http"
+	"github.com/studyzy/fabric-sdk-go/third_party/github.com/studyzy/net/http"
 )
 
 var (
