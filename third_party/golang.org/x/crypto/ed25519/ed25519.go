@@ -22,14 +22,14 @@ package ed25519
 
 import (
 	"bytes"
-	"github.com/studyzy/crypto"
+	"crypto"
 	cryptorand "crypto/rand"
 	"crypto/sha512"
 	"errors"
 	"io"
 	"strconv"
 
-	"golang.org/x/crypto/ed25519/internal/edwards25519"
+	"github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/ed25519/internal/edwards25519"
 )
 
 const (

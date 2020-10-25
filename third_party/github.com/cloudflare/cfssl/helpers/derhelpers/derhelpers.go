@@ -9,7 +9,7 @@ import (
 	"github.com/studyzy/crypto/x509"
 
 	cferr "github.com/studyzy/fabric-sdk-go/third_party/github.com/cloudflare/cfssl/errors"
-	//"golang.org/x/crypto/ed25519"
+	//"github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/ed25519"
 )
 
 // ParsePrivateKeyDER parses a PKCS #1, PKCS #8, ECDSA, or Ed25519 DER-encoded

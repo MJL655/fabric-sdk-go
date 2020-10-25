@@ -19,7 +19,7 @@ import (
 
 	"github.com/studyzy/crypto/sha256"
 
-	"golang.org/x/crypto/sha3"
+	"github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/sha3"
 )
 
 type config struct {

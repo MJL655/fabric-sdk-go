@@ -20,7 +20,7 @@ import (
 
 	"github.com/studyzy/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
-	"golang.org/x/crypto/sha3"
+	"github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/sha3"
 )
 
 // NewDefaultSecurityLevel returns a new instance of the software-based BCCSP

@@ -6,7 +6,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"golang.org/x/crypto/ed25519"
+	"github.com/studyzy/fabric-sdk-go/third_party/golang.org/x/crypto/ed25519"
 )
 
 var errEd25519WrongID = errors.New("incorrect object identifier")
