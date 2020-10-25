@@ -161,6 +161,7 @@ github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81P
 github.com/stretchr/testify v1.5.1 h1:nOGnQDM7FYENwehXlg/kFVnos3rEvtKTjRvOWSzb6H4=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 github.com/studyzy/crypto v0.0.0-20201015154153-d31e1e6039c6/go.mod h1:0cdg6vLIxkmOi52i8iObcnpZhOHWsPTkdO29RDk1fh8=
+github.com/studyzy/crypto v0.0.0-20201025151115-27e67ee9d143/go.mod h1:0cdg6vLIxkmOi52i8iObcnpZhOHWsPTkdO29RDk1fh8=
 github.com/studyzy/net v0.0.0-20201009065424-632798fa16ef/go.mod h1:eZ6PuAvUljLIg8usbTN+cBHWExfZwgUkUBRzj55dnrs=
 github.com/studyzy/net v0.0.0-20201020014349-89230b9445e0/go.mod h1:eZ6PuAvUljLIg8usbTN+cBHWExfZwgUkUBRzj55dnrs=
 github.com/tjfoc/gmsm v1.3.2/go.mod h1:HaUcFuY0auTiaHB9MHFGCPx5IaLhTUd2atbCFBQXn9w=

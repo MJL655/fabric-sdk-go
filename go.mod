@@ -24,7 +24,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.5.1 // indirect
-	github.com/studyzy/crypto v0.0.0-20201015154153-d31e1e6039c6
+	github.com/studyzy/crypto v0.0.0-20201025151115-27e67ee9d143
 	golang.org/x/crypto v0.0.0-20200221231518-2aa609cf4a9d
 	golang.org/x/sys v0.0.0-20190801041406-cbf593c0f2f3
 	golang.org/x/text v0.3.2
