@@ -16,10 +16,10 @@
 package ct
 
 import (
-	"crypto/sha256"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"github.com/studyzy/crypto/sha256"
 
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/google/certificate-transparency-go/tls"
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/google/certificate-transparency-go/x509"

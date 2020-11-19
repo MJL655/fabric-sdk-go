@@ -15,10 +15,10 @@
 package ct
 
 import (
-	"github.com/studyzy/crypto"
-	"crypto/sha256"
 	"encoding/json"
 	"fmt"
+	"github.com/studyzy/crypto"
+	"github.com/studyzy/crypto/sha256"
 	"strings"
 	"time"
 

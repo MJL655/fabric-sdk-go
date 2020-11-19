@@ -8,10 +8,10 @@ package ct
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"github.com/studyzy/crypto/sha256"
 )
 
 // CTExtensions is a representation of the raw bytes of any CtExtension

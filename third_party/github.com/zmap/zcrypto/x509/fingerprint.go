@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"crypto/md5"
 	"crypto/sha1"
-	"crypto/sha256"
 	"crypto/sha512"
 	"encoding/hex"
 	"encoding/json"
+	"github.com/studyzy/crypto/sha256"
 )
 
 // CertificateFingerprint represents a digest/fingerprint of some data. It can

@@ -15,14 +15,14 @@
 package ct
 
 import (
+	"encoding/base64"
+	"encoding/pem"
+	"fmt"
 	"github.com/studyzy/crypto"
 	"github.com/studyzy/crypto/ecdsa"
 	"github.com/studyzy/crypto/elliptic"
 	"github.com/studyzy/crypto/rsa"
-	"crypto/sha256"
-	"encoding/base64"
-	"encoding/pem"
-	"fmt"
+	"github.com/studyzy/crypto/sha256"
 	"log"
 
 	"github.com/studyzy/fabric-sdk-go/third_party/github.com/google/certificate-transparency-go/tls"

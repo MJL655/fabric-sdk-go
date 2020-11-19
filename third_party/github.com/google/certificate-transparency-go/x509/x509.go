@@ -45,17 +45,17 @@ package x509
 
 import (
 	"bytes"
-	"github.com/studyzy/crypto"
 	"crypto/dsa"
-	"github.com/studyzy/crypto/ecdsa"
-	"github.com/studyzy/crypto/elliptic"
-	"github.com/studyzy/crypto/rsa"
 	_ "crypto/sha1"
-	_ "crypto/sha256"
 	_ "crypto/sha512"
 	"encoding/pem"
 	"errors"
 	"fmt"
+	"github.com/studyzy/crypto"
+	"github.com/studyzy/crypto/ecdsa"
+	"github.com/studyzy/crypto/elliptic"
+	"github.com/studyzy/crypto/rsa"
+	_ "github.com/studyzy/crypto/sha256"
 	"io"
 	"math/big"
 	"net"
@@ -2998,7 +2998,7 @@ func ParseCertificateRequest(asn1Data []byte) (*CertificateRequest, error) {
 
 func parseCertificateRequest(in *certificateRequest) (*CertificateRequest, error) {
 	out := &CertificateRequest{
-		Raw: in.Raw,
+		Raw:                      in.Raw,
 		RawTBSCertificateRequest: in.TBSCSR.Raw,
 		RawSubjectPublicKeyInfo:  in.TBSCSR.PublicKey.Raw,
 		RawSubject:               in.TBSCSR.Subject.FullBytes,
